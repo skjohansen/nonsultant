@@ -102,6 +102,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
       font-family: flexo;
+      background: linear-gradient(45deg, #5a5d80, #5a5d80);
 }
 
 #header #logo {
@@ -138,7 +139,6 @@ h6 {
     
     padding: 0;
     margin-top:0;
-    display:none;
 }
 
 #header.header-fixed {

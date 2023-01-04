@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
  
-  $('#logobranco').hide();
+  // $('#logobranco').hide();
 
   // Header fixed and Back to top button
   $(window).scroll(function() {
@@ -8,23 +8,23 @@ jQuery(document).ready(function($) {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
       $('#header').addClass('header-fixed');
-      $('#logobranco').fadeIn('slow');
+      // $('#logobranco').fadeIn('slow');
     } else {
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
     }
-      if ($(this).scrollTop() < 100) {
-          $('#logobranco').fadeOut('fast');
-      }else if($(this).scrollTop()>300){
-          $('#logobranco').fadeIn('slow');
-      }
+      // if ($(this).scrollTop() < 100) {
+      //     $('#logobranco').fadeOut('fast');
+      // }else if($(this).scrollTop()>300){
+      //     $('#logobranco').fadeIn('slow');
+      // }
     
   });
 
   if ($(this).scrollTop() > 100) {
     $('.back-to-top').fadeIn('slow');
     $('#header').addClass('header-fixed');
-    $('#logobranco').fadeIn('slow'); 
+    // $('#logobranco').fadeIn('slow'); 
   }
 
   $('.back-to-top').click(function() {  

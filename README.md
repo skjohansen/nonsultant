@@ -1,0 +1,1 @@
+Plain website without any magic
